@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">wisielec</string>
+    <string name="check_letter">Check letter</string>
+    <string name="check_word">Check Word</string>
+    <string name="letter">Letter</string>
+
+</resources>

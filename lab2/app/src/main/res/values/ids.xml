@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="clear_msg" type="id">clear_msg</item>
+    <item name="mainContainer" type="id" />
+    <item name="clearButton" type="id" />
+</resources>

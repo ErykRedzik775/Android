@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab2poprawione</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="calculate">Calculate</string>
+    <string name="result" />
+    <string name="clear_msg" />
+</resources>
