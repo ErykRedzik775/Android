@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactFragment">
+
+    <EditText
+        android:id="@+id/addInputName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="name"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/addLabelName"
+        app:layout_constraintTop_toBottomOf="@+id/addLabelName" />
+
+    <TextView
+        android:id="@+id/addLabelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="Name: "
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <EditText
+        android:id="@+id/addInputSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="surname"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/addLabelSurname"
+        app:layout_constraintTop_toBottomOf="@+id/addLabelSurname" />
+
+    <TextView
+        android:id="@+id/addLabelSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Surname:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/addLabelName"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <EditText
+        android:id="@+id/addInputNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="111111111"
+        android:maxLength="9"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/addLabelNumber"
+        app:layout_constraintTop_toBottomOf="@+id/addLabelNumber" />
+
+    <TextView
+        android:id="@+id/addLabelNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Number: "
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/addInputBirthday"
+        app:layout_constraintTop_toBottomOf="@+id/addInputBirthday" />
+
+    <EditText
+        android:id="@+id/addInputBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="dd-mm-yyyy"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/addLabelBirthday"
+        app:layout_constraintTop_toBottomOf="@+id/addLabelBirthday" />
+
+    <TextView
+        android:id="@+id/addLabelBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:text="Birthday:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addInputName" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

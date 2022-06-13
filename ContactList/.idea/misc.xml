@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/drawable/avatar_8.xml" value="0.1" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/drawable/avatar_9.xml" value="0.1" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/drawable/circle_drawable_green.xml" value="0.1" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/layout/fragment_add_contact.xml" value="0.264" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/layout/fragment_delete_dialog.xml" value="0.4" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/layout/fragment_display_contact.xml" value="0.264" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/layout/fragment_item.xml" value="0.10740740740740741" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/layout/fragment_item_list.xml" value="0.264" />
+        <entry key="..\:/Programy/Studia/android laby 2.0/Zadanie 2/app/src/main/res/layout/fragment_long_click.xml" value="0.10740740740740741" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
